@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int GCD(int a, int b) {
+    int tmp;
+    a=abs(a);
+    while(b != 0) {
+        tmp = a % b;
+        a = b;
+        b = tmp;
+    }
+    return a;
+}
+      

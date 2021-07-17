@@ -1,0 +1,8 @@
+#include <stdio.h>
+void printArray(int a[], int n){
+ if(n==0)
+return;
+ printf("%d\n",a[n-1]);
+ printArray(a,n-1);
+
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+int max3(int a,int b,int c){
+    if(b<c)
+    return c;
+    else if(b<a)
+    return a;
+    else{
+        return b;
+    }
+}

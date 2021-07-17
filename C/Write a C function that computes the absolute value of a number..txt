@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<stdlib.h>
+float my_abs(float x){
+    if(x>=0)
+    return x;
+    else{
+        return -x;
+    }
+}

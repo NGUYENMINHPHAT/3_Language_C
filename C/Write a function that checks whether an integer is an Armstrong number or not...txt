@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int is_Armstrong(int n){
+    int s=0, dem=0, t=n;
+       do
+        dem++;
+    while (t/=10);
+    t=n;
+    do{
+        s+=pow((t%10),dem);
+    }
+    while ((s<=n) && (t/=10));
+    if (s==n)
+        return 1;
+    else
+        return 0;
+}

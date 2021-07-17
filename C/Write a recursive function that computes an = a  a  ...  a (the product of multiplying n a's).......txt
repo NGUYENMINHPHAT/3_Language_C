@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+double power(float a,int n){
+    if(n==1){
+     return power(a,n-1)*a;
+     }
+    else if(n==0){
+return 1;
+}
+else{
+    return power(a,n-1)*a;
+}
+}

@@ -1,0 +1,8 @@
+#include <math.h>
+int is_Armstrong(int n) 
+{
+	int so1=n%10;
+	int so2=(n/10)%10;
+	int so3=n/100;
+	return pow(so1,3)+pow(so2,3)+pow(so3,3)==n;
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+float getAVG ( int A[], int n){
+	int  avg = 0;
+	float av;
+	for ( int i = 0; i < n; i++){
+		avg = avg + A[i];
+		av = (float)avg/n;
+	}
+	return av;
+}
